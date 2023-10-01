@@ -6,7 +6,7 @@ int gcd(int a, int b)
 		return a+b;
 	while (a!=b)
 	{
-		if (a > b) a-=b ;
+		if (a > b) a-=b;
 		else b-=a;
 	}
 	return a;
@@ -257,7 +257,7 @@ int main()
 			if (z2==1)
 			{
 				if(gcd(detk,26)==1) printf("Ma tran K thoa man dieu kien lam khoa cua he ma\n");
-				else printf("Ma tran K khong thoa man dieu kien lam khoa cua he ma\n");
+				else printf("Ma tran K khong thoa man dieu kien lam khoa cua he ma!\n");
 			}
 			else if (z2==2)
 			{
